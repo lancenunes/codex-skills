@@ -16,43 +16,16 @@ Use this at repo root when you have multiple subprojects/modules.
 Use `references/module-map-format.md` for the table format.
 
 ## Cross-domain workflows
-- **Frontend -> backend API**
-  - API base URL / env vars: ...
-  - Auth/session expectations (cookies, headers): ...
-  - Contract location (OpenAPI/GraphQL) and how to update clients: ...
-- **Local dev (run together)**
-  - Start backend: ...
-  - Start frontend: ...
-  - Common gotchas (CORS, ports, proxies): ...
+- Frontend -> backend API: base URL/env vars, auth/session, contract (OpenAPI/GraphQL), client generation.
+- Local dev: how to run modules together + common gotchas (ports/proxies/CORS).
 
 ## Verification (preferred commands)
-- Run the smallest meaningful checks first.
-- Prefer quiet/silent modes on the first run to avoid flooding context; only re-run narrowed failures with verbose logs when debugging.
-
-### Backend (example: Gradle / Java)
-- **Where:** run from `<backend-path>/`
-- **Prereqs:** Java `<version>`, local DB (often via `docker compose up`)
-- **Build:** `./gradlew clean build`
-- **Unit tests:** `./gradlew test`
-- **Integration tests:** `./gradlew integrationTest` (or your repo's task)
-- **Single test/class:** `./gradlew test --tests <package.ClassName>`
-- **Quiet first pass:** `./gradlew test --console=plain --quiet`
-- **Debug a failure:** `./gradlew test --tests <package.ClassName> --info --console=plain`
-- **Checks/lint:** `./gradlew check`
-- **Formatting (after tests are green):** `./gradlew spotlessApply` (or your formatter task)
-
-### Frontend (example: bun / node)
-- **Where:** run from `<frontend-path>/` (repeat for other frontends like `<frontend-client-path>/`, `<landing-path>/` if applicable)
-- **Dev:** `bun run dev` (or `npm run dev`)
-- **Build smoke:** `bun run build && bun run start`
-- **Lint/type-check:** `bun run lint` and `bun run type-check`
-- **Tests:** `bun run test`
-- **Quiet first pass:** `bun run test -- --silent` (or `npm test -- --silent`)
-- **Target one file/case:** `bun run test -- <pattern>` or `bun run test -- -t "<name>"`
+- Default: run quiet first; re-run narrowed failures with verbose logs only when debugging.
+- Backend (Gradle): from `<backend-path>/` (Java `<version>`, DB via compose) run `./gradlew clean build`, `./gradlew test`, `./gradlew integrationTest`, single `./gradlew test --tests <package.ClassName>`; quiet add `--console=plain --quiet`; debug add `--info --console=plain`; quality `./gradlew check`; format `./gradlew spotlessApply`.
+- Frontend (bun): from `<frontend-path>/` (repeat per frontend module) run `bun run dev`, `bun run build && bun run start`, `bun run lint`, `bun run type-check`, `bun run test`; quiet `-- --silent`; target `-- <pattern>` / `-t "<name>"`.
 
 ## Docs usage
-- Do not open/read `docs/` by default.
-- Consult docs only when the user asks or the task requires it (docs updates, onboarding, ops/runbooks, verifying intended behavior).
+- Do not open/read `docs/` unless the user asks or the task requires it.
 
 ## Global conventions
 - ...
