@@ -24,6 +24,7 @@ Produce an actionable plan that is:
    - Find relevant code paths and patterns:
      - `rg` for symbols, endpoints, config keys, error strings
      - `git log -p` / `git blame` for history and intent when uncertain
+   - If the plan depends on external behavior (framework/library/tooling), consult official docs or release notes (and call out versions/assumptions).
    - Capture findings as short bullets with file paths.
 2) Analysis (what to change and why)
    - Restate requirements and assumptions.
@@ -38,4 +39,3 @@ Produce an actionable plan that is:
 
 ## Deliverable
 Use `references/plan-template.md` and fill it in.
-
