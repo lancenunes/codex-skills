@@ -6,12 +6,12 @@ Personal Codex CLI skills (drop-in folders under `~/.codex/skills/`).
 
 ### macOS/Linux
 ```bash
-git clone <REPO_URL> ~/.codex/skills
+git clone https://github.com/jMerta/codex-skills.git ~/.codex/skills
 ```
 
 ### Windows (PowerShell)
 ```powershell
-git clone <REPO_URL> "$HOME\.codex\skills"
+git clone https://github.com/jMerta/codex-skills.git "$HOME\.codex\skills"
 ```
 
 ## Skills
@@ -29,4 +29,3 @@ git clone <REPO_URL> "$HOME\.codex\skills"
 - Frontmatter requirements:
   - `name`: non-empty, <= 100 chars, single line
   - `description`: non-empty, <= 500 chars, single line
-
