@@ -28,6 +28,7 @@ Use `references/module-map-format.md` for the table format.
 - Do not open/read `docs/` unless the user asks or the task requires it.
 
 ## Global conventions
+- Keep instructions concise and precise; link to docs for details.
 - ...
 
 ## Do not
@@ -62,6 +63,7 @@ Use this inside each module/component root (backend/frontend/docs/etc.). This is
 Use `references/feature-map-format.md` for the table format.
 
 ## Conventions
+- Keep instructions concise and precise; link to docs for details.
 - ...
 
 ## Common pitfalls

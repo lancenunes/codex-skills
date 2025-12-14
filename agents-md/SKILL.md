@@ -11,6 +11,8 @@ Add lightweight, scoped guidance for an AI agent (and humans) by placing AGENTS.
 - nested: tech-specific instructions for each component/module
 - optional: feature maps at the module level
 
+Optimize for concise and precise instructions (short bullets, minimal prose). Link to docs for depth.
+
 ## Inputs to ask for (if missing)
 - Is this a monorepo (multiple independently-built modules) or a single project?
 - Repo layout: where backend, frontend, docs, infra live; list the major modules/subprojects.
