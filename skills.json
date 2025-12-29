@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "updated": "2025-12-21T22:04:00Z",
-  "total": 15,
+  "updated": "2025-12-29T23:21:29Z",
+  "total": 16,
   "skills": [
     {
       "name": "agents-md",
@@ -158,6 +158,17 @@
       "verified": true
     },
     {
+      "name": "sessions-to-blog",
+      "description": "Generate MDX blog posts or recaps from session logs in `sessions/articles`. Use when the user asks to turn daily session notes into publishable blog posts, define writing style or linking rules for those posts, or produce MDX drafts that follow the project's standards and file location.",
+      "category": "documentation",
+      "author": "jMerta",
+      "source": "jMerta/codex-skills",
+      "license": "MIT",
+      "path": "sessions-to-blog",
+      "featured": false,
+      "verified": true
+    },
+    {
       "name": "vps-checkup",
       "description": "SSH into an Ubuntu VPS (Docker) for a read-only health/security/update report (UFW + fail2ban) and propose fixes; apply updates/restarts only with explicit confirmation. Use when the user wants a read-only VPS health/security check.",
       "category": "operations",
@@ -180,7 +191,7 @@
       "id": "documentation",
       "name": "Documentation",
       "description": "Documentation and release notes",
-      "count": 2
+      "count": 3
     },
     {
       "id": "operations",
