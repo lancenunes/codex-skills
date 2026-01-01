@@ -8,3 +8,12 @@ dev-browser/profiles/
 dev-browser/tmp/
 CONTINUITY.md
 LEDGER.md
+sessions/
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.env
+.env.*
+!.env.example

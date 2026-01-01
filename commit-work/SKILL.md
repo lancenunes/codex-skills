@@ -27,6 +27,12 @@ Make commits that are easy to review and safe to ship:
 3) Stage only what belongs in the next commit
    - Prefer patch staging for mixed changes: `git add -p`
    - To unstage a hunk/file: `git restore --staged -p` or `git restore --staged <path>`
+   - If the commit is whole-file (no partial hunks), prefer the committer helper:
+     - `committer.ps1 "type(scope): summary" path1 path2 ...`
+       - If script execution is blocked, run: `pwsh -File committer.ps1 "type(scope): summary" path1 path2 ...`
+     - It clears the index and stages exactly the files you list (never use `.`).
+     - Use `--force` only if git reports a stale `.git/index.lock`.
+     - Skip it when you need partial hunks or a multi-line commit message body.
 4) Review what will actually be committed
    - `git diff --cached`
    - Sanity checks:

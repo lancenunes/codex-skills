@@ -134,6 +134,12 @@ If you add or rename skills:
 - `release-notes`: Draft release notes/changelog entries from git ranges. (Author: @jMerta)
 - `vps-checkup`: Check Ubuntu VPS health/security/updates + Docker status over SSH (read-only unless confirmed). (Author: @jMerta)
 
+## Third-party skills
+Some skills in this workspace are sourced from external repositories (for example,
+`steipete/agent-scripts`). When copied, each skill folder includes a `LICENSE`,
+an `ATTRIBUTION.md`, and an Attribution section in `SKILL.md`. Related scripts
+live in `skills/agent-scripts` and include their own `LICENSE`/`ATTRIBUTION.md`.
+
 ## Contributing
 - Each skill is a folder with a required `SKILL.md` (YAML frontmatter + Markdown body).
 - Frontmatter requirements:
