@@ -135,10 +135,18 @@ If you add or rename skills:
 - `vps-checkup`: Check Ubuntu VPS health/security/updates + Docker status over SSH (read-only unless confirmed). (Author: @jMerta)
 
 ## Third-party skills
-Some skills in this workspace are sourced from external repositories (for example,
-`steipete/agent-scripts`). When copied, each skill folder includes a `LICENSE`,
-an `ATTRIBUTION.md`, and an Attribution section in `SKILL.md`. Related scripts
-live in `skills/agent-scripts` and include their own `LICENSE`/`ATTRIBUTION.md`.
+The following skills are sourced from `steipete/agent-scripts` (MIT). Author:
+@steipete
+- `agent-scripts` (scripts bundle)
+- `brave-search`
+- `create-cli`
+- `frontend-design`
+- `oracle`
+- `video-transcript-downloader`
+
+Each copied skill folder includes a `LICENSE`, `ATTRIBUTION.md`, and an Attribution
+section in `SKILL.md`. Related scripts live in `skills/agent-scripts` and include
+their own `LICENSE`/`ATTRIBUTION.md`.
 
 ## Contributing
 - Each skill is a folder with a required `SKILL.md` (YAML frontmatter + Markdown body).
